@@ -64,7 +64,7 @@ export default async function page() {
         <Callout>
           <div className="d-flex align-items-center" style={{ fontSize: '12px' }}>
             <Image className="me-2" src="/icons/Info.svg" alt="Logo" width="24" height="24" />
-            We'll text two factor authentication code to this number when you sign in.
+            <div> We&#39;ll text two factor authentication code to this number when you sign in.</div>
           </div>
 
         </Callout>
