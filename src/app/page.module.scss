@@ -1,0 +1,29 @@
+$bg-offwhite : #fafbfb;
+
+.nav_active {
+    background-color: $bg-offwhite;
+    color: #1CB78D;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 236px;
+    background-color: white;
+}
+
+.content {
+    margin-left: 236px; /* Lebar sidebar */
+    padding: 20px;
+}
+.content_header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000; /* Menaikkan indeks z untuk memastikan header tetap di atas */
+}
+
+:export {
+    bgOffWhite : $bg-offwhite;
+}

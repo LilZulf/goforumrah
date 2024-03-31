@@ -1,0 +1,32 @@
+$primary : #1CB78D;
+$secondary: #616161;
+$light-text : #9e9e9e;
+$info : #475BCA;
+
+
+$btn-border-width: 2px;
+$btn-border-radius: 8px;
+
+$input-border-radius: 10px;
+$input-bg:#fafbfb;
+$input-border-width : 1px;
+$input-border-color: #D9E0E4;
+$input-placeholder-color: $light-text;
+
+$nav-link-color:  #052c47;
+$nav-underline-link-active-color: $primary;
+
+.text_light {
+    color: $light-text
+}
+// Get elements
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+// Custom Css
+
+@import "../sass/custom.scss";
+
+// Overrides
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
